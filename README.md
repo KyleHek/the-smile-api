@@ -1,4 +1,4 @@
-# The Smile | Band Website Api
+# The Smile | Band Website API
 
 
 ## Used server side techniques
