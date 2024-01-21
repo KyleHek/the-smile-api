@@ -15,8 +15,8 @@ app.use(express.static('public'));
 app.use(express.json());
 
 // Stripe , using .env file for the stripe_api key. Change later to environmental
-// let stripeGateway = stripe(process.env.stripe_api);
-let stripeGateway = stripe('sk_test_51OaNQCKSfGQaTUbz1a3OaV8FzuGlm8kBO3EpLMndk6HawY1cTubyOX8lHvMjA4bupTpgrhU4ZrFz2lSsF8JdlqDk00GEffRWE0');
+let stripe_secret_key = process.env.stripe_api
+let stripeGateway = stripe(stripe_secret_key);
 // In .env file, needs changed when hosted
 let DOMAIN = process.env.DOMAIN;
 
