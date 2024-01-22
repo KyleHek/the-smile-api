@@ -2,7 +2,7 @@
   "name": "the-smile-api",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server.cjs",
   "type": "module",
   "scripts": {
     "start": "node server.cjs",

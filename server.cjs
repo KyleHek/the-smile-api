@@ -41,8 +41,8 @@ app.post('/stripe-checkout', cors(), async (req, res) => {
         const session = await stripeGateway.checkout.sessions.create({
             payment_method_types: ['card'],
             mode: 'payment',
-            success_url: `${DOMAIN}/the-smile-react/success?success=true`,
-            cancel_url: `${DOMAIN}/the-smile-react/cancel`,
+            success_url: `${DOMAIN}/success?success=true`,
+            cancel_url: `${DOMAIN}/cancel`,
             line_items: lineItems,
             // Asking address In Stripe Checkout Page
             billing_address_collection: 'required'
