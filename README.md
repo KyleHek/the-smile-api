@@ -19,4 +19,4 @@
 
 For further information about the Front End look at [the-smile-react](https://github.com/KyleHek/the-smile-react).	
 
-Look at [Working Demo](https://the-smile-dsag.onrender.com) deployed at [Render](https://www.render.com).
+Look at [Working Demo](https://the-smile.onrender.com) deployed at [Render](https://www.render.com).
