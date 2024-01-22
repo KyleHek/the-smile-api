@@ -47,7 +47,6 @@ app.post('/stripe-checkout', cors(), async (req, res) => {
             // Asking address In Stripe Checkout Page
             billing_address_collection: 'required'
         });
-        console.log('session:', session);
         res.json({ success: true, sessionId: session.id, checkoutUrl: session.url });
     }   catch (error) {
             console.error(error);
